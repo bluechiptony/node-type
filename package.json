@@ -1,0 +1,29 @@
+{
+  "name": "node-type",
+  "version": "1.0.0",
+  "description": "Node typesscript API",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "nodemon app.ts",
+    "start": "tsc && node build/app",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluechiptony/node-type.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^13.7.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
